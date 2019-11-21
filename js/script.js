@@ -1,11 +1,5 @@
 function init(){
-//add your javascrip between these two lines of code
- 
-
-
-
-
-
-
+  
+  alert("text...");
 
 window.addEventListener('load', init);
