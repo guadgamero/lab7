@@ -1,8 +1,12 @@
 function init(){
-  
-  var eb = document.getElementById("entrybutton");
-  eb.innerHTML = "";
-  
   alert("Guad Gamero:");
+}
+
+var x = document.getElementById("entrybutton");
+x.addEventListener('click', init);
+  
+
+  
+  
 
 window.addEventListener('load', init);
