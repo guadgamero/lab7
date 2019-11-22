@@ -4,7 +4,7 @@ function init(){
   function anotherFunction() {
     var x = document.getElementById('entryinput');
     alert('Guad Gamero: ' + entryinput.value);
-    x.addEventListener('onclick', change);
+    
     document.getElementById('textoutput').innerHTML = entryinput.value;
   }
   
