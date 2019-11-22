@@ -3,11 +3,11 @@ function init(){
   
   function anotherFunction() {
     function change(){
-      m = document.getElementById('textoutput').innerHTML;
+      document.getElementById('textoutput').innerHTML = entryinput.value;
     }
   var x = document.getElementById('entryinput');
-  alert('Guad Gamero: ' + m.value);
-  x.addEventListener('click', change);
+  alert('Guad Gamero: ' + entryinput.value);
+  x.addEventListener('onclick', change);
   }
   
   click.addEventListener('click', anotherFunction);
